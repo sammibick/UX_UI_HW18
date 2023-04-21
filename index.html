@@ -1,66 +1,114 @@
 <!DOCTYPE html>
-<html>
+ <html>
 
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet" />
-    <link href="./css/main.css" rel="stylesheet" />
-    <title>Document</title>
-</head>
+ <head>
+ <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+ <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet" />
+ <link href="./css/main.css" rel="stylesheet" />
+ <style>
+ .flex-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ align-items: flex-start;
+ position: relative;
+ top: 300px;
+ Width: 85%;
+ margin-left: auto;
+ margin-right: auto;
+ }
 
-<body>
-    <div class="v3_33">
-        <div class="v10_82"></div>
-        <div class="v10_90"></div>
-        <div class="v10_109"></div>
-        <div class="v10_92"></div>
-        <div class="v10_110"></div>
-        <div class="v3_58"></div><span class="v3_32">Sam Bickford</span><span class="v3_59">UX Designer</span>
-        <div class="v3_57"></div><span class="v3_60">Minneapolis, MN based designer focused on human-centered design.
-        </span>
-        <div class="name"></div><span class="v10_71"> Striving to create intuitive and engaging interfaces
-            Focused on interface innovation</span><span class="v10_72">Featured Expertise</span><span
-            class="v10_73">Skills</span><span class="v10_74">Tools</span><span class="v10_75">Figma
-            FigJam
-            GitHub
-            Miro
+ .flex-item {
+ flex: 0 1 200px;
+ margin: 10px;
+ padding: 10px;
+ flex-grow: 4;
+ }
+ </style>
+ <title>Document</title>
+ </head>
 
-        </span><span class="v10_76">User Empathy
-            Project Management
-            Data Synthesis and Analysis
-            Usability Testing
-            Prototyping</span><span class="v10_77">Dig into my approach
+ <body>
+ <div class="v3_33">
+ <div class="v3_58"></div><span class="v3_32">Sam Bickford</span><span class="v3_59">UX Designer</span>
+ <div class="v3_57"></div><span class="v3_60">Minneapolis, MN based designer focused on human-centered design.
+ </span>
+ <div><span class="v10_71"> Striving to create intuitive and engaging interfaces
+ Focused on interface innovation</span><span class="v10_72">Featured Expertise</span></div>
 
-        </span><span class="v10_84">Twin Cities Recovery Project Inc. </span><span class="v10_111">District of Columbia
-            Public Schools</span><span class="v10_79">My experience in user-device interaction has enhanced my ability
-            to empathize with the user and develop strategic and individualized UX solutions.</span><span
-            class="v10_88">A nonprofit community program dedicated to helping groups most affected by addiction.
-        </span><span class="v10_112">Dedicated to excellence and uplifting students every step of the way.</span>
-        <div class="name"></div>
-        <div class="v10_81"></div><span class="v10_83">Featured Work</span><img src="uxuibc/tcrphome.png">
-        <div class="v10_85"></div>
-        <div class="v10_89"></div>
-        <div class="v10_113"></div>
-        <div class="v10_91"></div><span class="v10_93">View Case Study</span><span class="v10_114">View Case
-            Study</span>
-        <div class="v10_115"></div>
-        <div class="v3_68"></div>
-        <div class="name"></div>
-        <div class="v12_118"></div>
-        <div class="v12_119"></div><span class="v12_120">Sam Bickford - UX Researcher</span><span
-            class="v12_121">Connect with me </span><span class="v12_134">Quick Links</span>
-        <div class="v12_125"></div>
-        <div class="v12_127"></div>
-        <div class="v12_129"></div>
-        <div class="name"></div><span class="v12_132">LinkedIn</span><span class="v12_133">(612) 867-1589</span><span
-            class="v12_138">sbickford99@gmail.com</span><span class="v12_135">Resume</span><span class="v12_136">About
-            Me</span>
-        <div class="v3_67">
-            <div class="v3_61"></div>
-            <div class="v3_53"></div><span class="v3_62">Portfolio</span><span class="v3_65">About</span>
-            <div class="v3_66"></div><span class="v3_64">Contact</span>
-        </div>
+ <div>
+    <div class="flex-container">
+
+ <div class="flex-item fc1"><span>Dig into my approach </span> <br> <br>
+ My experience in user-device interaction has enhanced my ability
+ to empathize with the user and develop strategic and individualized UX solutions.
+ </div>
+ <div class="flex-item fc2"><span>Skills</span> <br> <br>
+ <ul>
+ <li>User Empathy</li>
+ <li>Project Management</li>
+ <li>Data Synthesis and Analysis</li>
+ <li>Usability Testing</li>
+ <li>Prototyping</li>
+ </ul>
+ </div>
+ <div class="flex-item fc3"> <span>Tools</span> <br> <br>
+ <ul>
+ <li>Figma</li>
+ <li>FigJam</li>
+ <li>GitHub</li>
+ <li>Miro</li>
+ </ul>
+ </div> 
+</div>
+ </div> 
+
+ <div class="v10_82">
+    <div class="v10_83">Featured Work</div>
+ </div>
+ <div class="v10_109"></div>
+ 
+ <div class="v10_92">
+    <span class="v10_84">Twin Cities Recovery Project Inc. </span>
+    <div>
+        <span class="v10_88">A nonprofit community program dedicated to helping groups most affected by addiction.</span> 
     </div>
-</body>
+    <img class="viewcase" src="./images/viewcasestudy.png"/>
+ </div>
 
-</html>
+ <div class="v10_110">
+    <span class="v10_111">District of ColumbiaPublic Schools</span>
+    <div>
+        <span class="v10_112">Dedicated to excellence and uplifting students every step of the way.</span>
+    </div>
+    <img class="viewcase2" src="./images/viewcasestudy.png"/>
+</div>
+ 
+ <div class="name"></div>
+
+ <div class="v10_90">
+    <div class="v10_91"></div>
+</div>
+
+ <div class="v10_115"></div>
+ <div class="v3_68"></div>
+ <div class="name"></div>
+ <div class="v12_118"></div>
+ <div class="v12_119"></div><span class="v12_120">Sam Bickford - UX Researcher</span><span
+ class="v12_121">Connect with me </span><span class="v12_134">Quick Links</span>
+ <div class="v12_125"></div>
+ <div class="v12_127"></div>
+ <div class="v12_129"></div>
+ <div class="name"></div>
+ <span class="v12_132">LinkedIn</span><span class="v12_133">(612) 867-1589</span><span
+ class="v12_138">sbickford99@gmail.com</span><span class="v12_135">Resume</span><span class="v12_136">About
+ Me</span>
+ <div class="v3_67">
+ <div class="v3_61"></div>
+ <div class="v3_53"></div><span class="v3_62">Portfolio</span><span class="v3_65">About</span>
+ <div class="v3_66"></div><span class="v3_64">Contact</span>
+ </div>
+ </div>
+ </body>
+
+ </html>
